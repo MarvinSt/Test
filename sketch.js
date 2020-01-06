@@ -2,13 +2,11 @@ function Node(x, y) {
   this.x = x;
   this.y = y;
   this.wall = false;
-
   /*
   if (random() < 0.25) {
     this.wall = true;
   }
   */
-
   this.g = Infinity;
   this.h = Infinity;
   this.prev = undefined;
